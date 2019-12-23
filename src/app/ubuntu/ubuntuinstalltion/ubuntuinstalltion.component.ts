@@ -9,7 +9,9 @@ import {Meta, Title} from '@angular/platform-browser';
 export class UbuntuinstalltionComponent implements OnInit {
 
  
-  constructor( private meta: Meta, private titleservice: Title) { }
+  constructor( private meta: Meta, private titleservice: Title) { 
+    console.log('ubuntu installation component loaded')
+  }
 
   ngOnInit() {
     this.titleservice.setTitle('Ubuntu Installation');

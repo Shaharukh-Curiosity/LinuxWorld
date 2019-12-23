@@ -13,8 +13,8 @@ export class InstallnodejsubuntuComponent implements OnInit {
   ngOnInit() {
     this.titleservice.setTitle('Node Js Installation');
     this.meta.addTag({
-      name: 'nodejs',
-      content: 'here we show how to installe node js on ubuntu machine'
+      name: 'nodejsubuntu',
+      content: 'How to install nodejs on ubuntu'
     });
   }
 
