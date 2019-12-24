@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.titleservice.setTitle('visionrosetta'); 
     this.meta.addTag({
-      name: 'Ubuntu,SSH,KaliLinux',
+      name: 'Ubuntu,OpenSSH,KaliLinux',
       content: 'this blog has been designed special for tech savvy'
  
   })
