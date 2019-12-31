@@ -2,7 +2,8 @@
 body{
   padding:0%;
   margin:0%;
-  
+  background-color:#E8F5E9;
+
  
 }  
 .card {
@@ -11,7 +12,8 @@ body{
   height:100%;
 
 
-}
+} 
+
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
