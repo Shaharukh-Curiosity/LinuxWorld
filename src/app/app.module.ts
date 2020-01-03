@@ -11,7 +11,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';   
 import { HomeComponent } from './home/home.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
-import{LoadingBarRouterModule} from '@ngx-loading-bar/router';
+ 
 import {ScrolltopService} from './scrolltop.service'; 
 import { environment } from '../environments/environment'; 
 
@@ -43,7 +43,7 @@ import { environment } from '../environments/environment';
     MatTableModule,
     MatDialogModule,
     MatSnackBarModule,
-    LoadingBarRouterModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
