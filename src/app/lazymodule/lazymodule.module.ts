@@ -11,7 +11,7 @@ const routes: Routes=[
 {path:'aboutus', component:AboutusComponent},
 {path:'feedback', component:FeedbackComponent},
 {path:'sitemap', component:SitemapComponent},
-{path:'privacy',component:PrivacyComponent}
+{path:'privacy-terms',component:PrivacyComponent}
 //{path:'**', component:ErrorComponent}
 
 ]
