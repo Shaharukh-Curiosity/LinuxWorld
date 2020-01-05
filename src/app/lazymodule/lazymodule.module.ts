@@ -27,6 +27,6 @@ const routes: Routes=[
 export class LazymoduleModule {
 
   constructor(){
-    console.log('module loaded');
+    console.log('Lazy module loaded');
   }
  }

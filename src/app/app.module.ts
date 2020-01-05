@@ -11,10 +11,10 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';   
 import { HomeComponent } from './home/home.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
- 
 import {ScrolltopService} from './scrolltop.service'; 
-import { environment } from '../environments/environment'; 
-
+import { environment } from '../environments/environment';
+import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
+import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,7 @@ import { environment } from '../environments/environment';
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent
-
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent
   ],
   imports: [
     BrowserModule,
