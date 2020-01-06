@@ -15,7 +15,7 @@ import {ScrolltopService} from './scrolltop.service';
 import { environment } from '../environments/environment';
 import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,8 +41,7 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
     MatMenuModule,
     MatTableModule,
     MatDialogModule,
-    MatSnackBarModule,
-    
+    MatSnackBarModule   
   ],
   providers: [],
   bootstrap: [AppComponent]
