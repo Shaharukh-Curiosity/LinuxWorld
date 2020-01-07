@@ -7,7 +7,7 @@ exports.ROUTES = [
     '/ubuntu-openssh',
     '/sitemap',
     '/aboutus',
-    '/privacy',
+    '/privacy-terms',
     '/ubuntu-tutorials',
     '/feedback',
     '/detecting-open-port-linux',
