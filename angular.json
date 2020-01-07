@@ -57,9 +57,7 @@
                     "maximumWarning": "2mb",
                     "maximumError": "10mb"
                   }
-                ],
-              "serviceWorker": true,
-              "ngswConfigPath": "ngsw-config.json"
+                ]
               }
             } 
           },

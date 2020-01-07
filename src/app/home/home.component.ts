@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     this.titleservice.setTitle('visionrosetta'); 
     this.meta.addTag({
       name: 'Ubuntu,OpenSSH,KaliLinux',
-      content: 'this blog has been designed special for tech savvy'
+      content: 'Ubuntu, Kali Linux & Shell Script Tutorials'
  
   })
 }
