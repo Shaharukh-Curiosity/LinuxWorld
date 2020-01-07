@@ -7,6 +7,7 @@ import { ngExpressEngine } from '@nguniversal/express-engine';
 import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
 
 import * as express from 'express';
+import * as compression from 'compression';
 import { join } from 'path';
 
 // Faster server renders w/ Prod mode (dev mode never needed)
@@ -31,7 +32,7 @@ app.engine('html', ngExpressEngine({
 
 app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));
-
+app.use(compression())
 // Example Express Rest API endpoints
 // app.get('/api/**', (req, res) => { });
 

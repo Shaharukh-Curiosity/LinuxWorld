@@ -7,6 +7,7 @@ var express_engine_1 = require("@nguniversal/express-engine");
 // Import module map for lazy loading
 var module_map_ngfactory_loader_1 = require("@nguniversal/module-map-ngfactory-loader");
 var express = require("express");
+var compression = require("compression");
 var path_1 = require("path");
 // Faster server renders w/ Prod mode (dev mode never needed)
 core_1.enableProdMode();
@@ -25,6 +26,7 @@ app.engine('html', express_engine_1.ngExpressEngine({
 }));
 app.set('view engine', 'html');
 app.set('views', path_1.join(DIST_FOLDER, 'browser'));
+app.use(compression());
 // Example Express Rest API endpoints
 // app.get('/api/**', (req, res) => { });
 // Server static files from /browser

@@ -15,6 +15,7 @@ import {ScrolltopService} from './scrolltop.service';
 import { environment } from '../environments/environment';
 import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
  
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
     MatMenuModule,
     MatTableModule,
     MatDialogModule,
-    MatSnackBarModule   
+    MatSnackBarModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })   
   ],
   providers: [],
   bootstrap: [AppComponent]
