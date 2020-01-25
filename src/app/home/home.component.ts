@@ -16,9 +16,9 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private meta: Meta, private titleservice: Title) { }
 
   ngOnInit() {
-    this.titleservice.setTitle('visionrosetta'); 
+    this.titleservice.setTitle('visionrosetta:Ubuntu,Kali Linux,Shell Script & Linux Basic Commands'); 
     this.meta.addTag({
-      name: 'Ubuntu,OpenSSH,KaliLinux',
+      name: 'Ubuntu,OpenSSH,KaliLinux,Shell Script, Basic Useful Command',
       content: 'Ubuntu, Kali Linux & Shell Script Tutorials'
  
   })
