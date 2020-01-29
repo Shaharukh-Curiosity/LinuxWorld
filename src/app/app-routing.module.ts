@@ -4,7 +4,7 @@ import { HomeComponent} from './home/home.component';
 import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import{KaliTutorialsHomeComponent} from './kali_linux/kali-tutorials-home/kali-tutorials-home.component'
-
+import {ChromeExtensionComponent} from './chrome-extension/chrome-extension.component';
 const routes: Routes = [
 
   {path : '', component: HomeComponent},
@@ -22,6 +22,11 @@ const routes: Routes = [
   {
     path:'kali-linux-tutorials',
     component:KaliTutorialsHomeComponent
+  },
+
+  {
+    path:'csv-to-json-converter',
+    component:ChromeExtensionComponent
   }
   
 ];

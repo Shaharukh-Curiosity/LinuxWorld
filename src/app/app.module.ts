@@ -11,11 +11,11 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';   
 import { HomeComponent } from './home/home.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
-import {ScrolltopService} from './scrolltop.service'; 
-import { environment } from '../environments/environment';
+ 
 import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
-
+import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
+ 
  
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent 
   ],
   imports: [
     BrowserModule,
@@ -42,7 +42,8 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
     MatMenuModule,
     MatTableModule,
     MatDialogModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+     
   ],
   providers: [],
   bootstrap: [AppComponent]
