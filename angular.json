@@ -21,7 +21,7 @@
               "assets": [
                 "src/favicon-32x32.png",
                 "src/sitemap.xml",
-                "src/assets",
+                "src/assets"
               ],
               "styles": [
                 "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
