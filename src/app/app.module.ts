@@ -15,6 +15,7 @@ import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/insta
 import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
+import { LinuxCommandComponent } from './linux-command/linux-command.component';
  
  
 @NgModule({
@@ -23,7 +24,7 @@ import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.co
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent 
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent 
   ],
   imports: [
     BrowserModule,

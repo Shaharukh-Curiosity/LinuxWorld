@@ -10,6 +10,7 @@ export const ROUTES = [
   '/feedback',
   '/detecting-open-port-linux',
   '/create-non-root-user-on-kali',
-  '/partition-filesystem-on-linux'
+  '/partition-filesystem-on-linux',
+  '/10-basic-linux-commands'
 ];
  

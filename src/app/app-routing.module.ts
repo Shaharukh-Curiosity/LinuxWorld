@@ -5,6 +5,7 @@ import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/install
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import{KaliTutorialsHomeComponent} from './kali_linux/kali-tutorials-home/kali-tutorials-home.component'
 import {ChromeExtensionComponent} from './chrome-extension/chrome-extension.component';
+import{LinuxCommandComponent} from './linux-command/linux-command.component';
 const routes: Routes = [
 
   {path : '', component: HomeComponent},
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path:'csv-to-json-converter',
     component:ChromeExtensionComponent
+  },
+  {
+    path:'10-basic-linux-commands',
+    component:LinuxCommandComponent
   }
   
 ];
