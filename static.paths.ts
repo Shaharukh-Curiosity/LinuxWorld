@@ -9,6 +9,7 @@ export const ROUTES = [
   '/ubuntu-tutorials',
   '/feedback',
   '/detecting-open-port-linux',
-  '/create-non-root-user-on-kali'
+  '/create-non-root-user-on-kali',
+  '/partition-filesystem-on-linux'
 ];
  
