@@ -11,6 +11,7 @@ export const ROUTES = [
   '/detecting-open-port-linux',
   '/create-non-root-user-on-kali',
   '/partition-filesystem-on-linux',
-  '/10-basic-linux-commands'
+  '/10-basic-linux-commands',
+  '/csv-to-json-converter'
 ];
  
