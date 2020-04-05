@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+
 import { NavigationComponent } from './navigation/navigation.component';
 import {MatCardModule, MatInputModule, MatButtonModule, MatRadioModule, MatSnackBarModule,
    MatGridListModule, MatFormFieldModule, MatCheckboxModule, MatDialogModule,MatMenuModule, MatTableModule} from '@angular/material';
@@ -16,17 +18,22 @@ import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kal
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
 import { LinuxCommandComponent } from './linux-command/linux-command.component';
- 
- 
+import { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
+import {AngularFireModule} from '@angular/fire';
+import{AngularFireDatabaseModule} from '@angular/fire/database';
+import{environment} from '../environments/environment';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent 
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent
   ],
   imports: [
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
     BrowserModule,
     BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
@@ -44,6 +51,7 @@ import { LinuxCommandComponent } from './linux-command/linux-command.component';
     MatTableModule,
     MatDialogModule,
     MatSnackBarModule,
+    FormsModule
      
   ],
   providers: [],

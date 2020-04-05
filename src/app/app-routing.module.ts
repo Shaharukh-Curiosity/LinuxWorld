@@ -6,6 +6,10 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
 import{KaliTutorialsHomeComponent} from './kali_linux/kali-tutorials-home/kali-tutorials-home.component'
 import {ChromeExtensionComponent} from './chrome-extension/chrome-extension.component';
 import{LinuxCommandComponent} from './linux-command/linux-command.component';
+import {GoogleSheetComponent} from './google/google-sheet/google-sheet.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+
+
 const routes: Routes = [
 
   {path : '', component: HomeComponent},
@@ -32,7 +36,16 @@ const routes: Routes = [
   {
     path:'10-basic-linux-commands',
     component:LinuxCommandComponent
-  }
+  },
+
+    {path:'how-to-submit-an-html-form-to-google-sheet-without-google-forms',
+    component:GoogleSheetComponent
+ } ,
+
+ {
+   path:'newsletter',
+   component:NewsletterComponent
+ }
   
 ];
 

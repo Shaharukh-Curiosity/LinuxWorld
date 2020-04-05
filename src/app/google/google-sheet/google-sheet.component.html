@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="name" content="create non root user account on kali linux">
+<meta name="description" content="in this tutorials we will learn how to create non root account with specified limitation
+and what are benifits to create non root user account and why some tools not run on root previlage">
+<link rel="canonical" href="https://www.visionrosetta.in/create-non-root-user-on-kali">
+<title>How to submit an html form to google sheet without Google Forms                        </h1>
+</title>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h1 tyle="font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;"> 
+                            How to submit an html form to google sheet without Google Forms                        </h1>
+                        <span style="font-size: 13px;">
+                            Written By <a routerLink="#">Shaharukh Parmar</a> on 7 March,2020
+                          </span><br><hr>
+
+                          <img src="assets/images/google/forms.png" alt="how to submit an form to google sheet">
+
+                        <p> sometimes we need to store the user data for future needs but those who site has been developed as front end have no chance to store user data without google forms through redirect them to google forms by shareable link using in(anchor tag, button link), although its look pretty weird, we can achieve this through record response directly to google sheet by HTML form
+                        <p>
+
+                         
+
+                                <p style="color:blue;"><b>Steps By Steps Guide to make program ready for execution</b></p>
+
+                                <p>
+                                    <b>Steps:1
+
+                                    </b><br>
+                                   Open the new tab and go to google cloud sheet or click on given link(
+                                   <a href="https://www.google.com/sheets/about/" target="_blank">Google Sheet)</a>
+                                </p>
+                               
+ 
+                        
+                                <p>
+                                    <b>Step:2</b>
+                                      <br>
+                                      Create the blank spreadsheet with these columns(columns can be varied according to your need)                                      <br>
+                                      <b></b>
+                                     
+                                    </p>
+                                    <div class="col-sm">
+                                        <img class="img-fluid" src="assets/images/google/googleblanksheet.png" alt="google blank spreadsheet">
+    
+                                    </div>
+     
+                                            <br>
+
+                                     <p>
+                                         <b>
+                                                Step:3
+                                         </b>
+                                         <p>
+                                             Now Click on Tools Menu and select the Script editor option 
+                                            </p>
+                                     
+                                        <div class="col-sm">
+                                            <img  class="img-fluid" src="assets/images/google/googletoolsmenu.png"   alt=" google tools menu">
+                                        </div><br>
+                                         
+                                     <p>
+                                         <b>Step:4</b><br>
+                                          You will see this screen now you have to copy this code and paste in this file
+                                    </p>
+                                    <div class="col-sm">
+                                        <img  class="img-fluid" src="assets/images/google/googlescript.png"   alt=" google tools menu">
+                                    </div><br>
+                                      
+ 
+   
+                                     <p><b>
+                                            Step:5
+                                   
+                                     </b><br>
+                                     Now choose Deploy as web app under Publish menu 
+
+                                       </p>
+
+                                    
+                                     <div class="col-sm">
+                                        <img  class="img-fluid" src="assets/images/google/scriptpublish.png"   alt="publish the code on google spreadsheet using google script">
+                                    </div><br>
+
+                                    <p><b>
+                                        Step:6
+                                 
+                                 </b><br>
+                                 here you can see three option leave as it first two where you have to make
+                                  changes is option three who has access to the app, select
+
+                                  <b>Anyone,even anonymous</b> and click on the deploy button
+ 
+                                   </p>
+
+                                
+                                 <div class="col-sm">
+                                    <img  class="img-fluid" src="assets/images/google/deploygooglescript.png"   alt="publish the code on google spreadsheet using google script">
+                                </div><br>
+
+                                <br>
+                                <p>
+                                   - next it will ask for authorization permission, now you have to give it permission so click on the review permissions button
+                                </p><div class="col-sm">
+                                    <img  class="img-fluid" src="assets/images/google/authorizationpermission.png"   alt="publish the code on google spreadsheet using google script">
+                                </div>
+
+                                <p>
+                                    If you encounter this app is not verified error,(because of this error is we have given access to the app anonymous user that's why this error is coming)
+                                    , now click on Advanced link it will show you link and click on Go to untitled project(unsafe) link and give allow for permisions
+                                </p>
+                                <div class="col-sm">
+                                    <img  class="img-fluid" src="assets/images/google/appnotverified.png"   alt="publish the code on google spreadsheet using google script">
+                                </div>
+                                
+                                <p><b>
+                                    Step:7
+                             
+                             </b><br>
+                                 Now Your app has been successfully deployed 
+
+                              <b>Anyone,even anonymous</b> and click on the deploy button, save Current web app url somewhere this will be required for html code to record the response to our spreadsheet
+
+                               </p>
+
+                               <div class="col-sm">
+                                <img  class="img-fluid" src="assets/images/google/webappurl.png"   alt="publish the code on google spreadsheet using google script">
+                            </div>
+
+                            <p><b>
+                                Step:8
+                         
+                         </b><br>
+                             Let's go and design our front end using the HTML
+                             
+                             
+
+                           </p>
+
+                           <div class="col-sm">
+                            <img  class="img-fluid" src="assets/images/google/webappurl.png"   alt="publish the code on google spreadsheet using google script">
+                        </div>
+
+
+
+                                       <mat-card> 
+          
+                                     </mat-card>  <br>
+
+                                     <div class="col-sm">
+                                            <img  class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/allocatebashshell.png"   alt="usermod command are used to give sudo parmission to the particular account in linux">
+                                     </div><br>
+
+                                     That's all we have created new non root user account 
+ 
+
+                                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
