@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';  // Firebase modules for Database, Data list and Single object
+//import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';  // Firebase modules for Database, Data list and Single object
 import{Newslettermodel} from './newslettermodel';
  
 
@@ -10,7 +10,7 @@ import{Newslettermodel} from './newslettermodel';
 export class NewsletterService {
 
   private dbpath = "/newsletter";
-
+/*
 
 
    newslettersRef: AngularFireList<Newslettermodel> = null;
@@ -23,4 +23,5 @@ export class NewsletterService {
   add_new_newsletter(newslettermodel: Newslettermodel): void{
     this.newslettersRef.push(newslettermodel)
   }
+*/
 }

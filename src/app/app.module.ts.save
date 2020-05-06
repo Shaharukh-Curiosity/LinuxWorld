@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NavigationComponent } from './navigation/navigation.component';
 import {MatCardModule, MatInputModule, MatButtonModule, MatRadioModule, MatSnackBarModule,
- MatGridListModule, MatFormFieldModule, MatCheckboxModule, MatDialogModule,MatMenuModule, MatTableModule} from '@angular/material';
+   MatGridListModule, MatFormFieldModule, MatCheckboxModule, MatDialogModule,MatMenuModule, MatTableModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ReactiveFormsModule} from '@angular/forms'; 
 import { FooterComponent } from './footer/footer.component';   
@@ -16,22 +16,21 @@ import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kal
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
 import { LinuxCommandComponent } from './linux-command/linux-command.component';
-import { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
- import{environment} from '../environments/environment';
+oimport { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
+import {AngularFireModule} from '@angular/fire'
+import{environment} from '../environments/environment';
 import { NewsletterComponent } from './newsletter/newsletter.component';
-import { ContentfulService } from './service/contentful.service';
-import { MdToHtmlPipe } from './md-to-html.pipe';
-
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent, MdToHtmlPipe
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent
   ],
   imports: [
-    
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
     BrowserModule,
     BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
@@ -52,7 +51,7 @@ import { MdToHtmlPipe } from './md-to-html.pipe';
     FormsModule
      
   ],
-  providers: [ContentfulService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -23,7 +23,7 @@ export class NewsletterComponent implements OnInit {
   
   }
  
-
+/*
   save(){
     this.nls.add_new_newsletter(this.newsletter);
     this.newsletter=new Newslettermodel();
@@ -36,7 +36,7 @@ export class NewsletterComponent implements OnInit {
 
   }
 
-   
+   */
  
   
 }

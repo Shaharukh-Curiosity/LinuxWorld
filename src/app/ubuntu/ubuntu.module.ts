@@ -6,7 +6,8 @@ import{UbuntuTutHomeComponent} from './ubuntu-tut-home/ubuntu-tut-home.component
 import{DetectingOpenportComponent} from './Tutorials/detecting-openport/detecting-openport.component';
 import {OpensshComponent}from './Tutorials/openssh/openssh.component';
 import { PartitionFilesystemComponent } from './Tutorials/partition-filesystem/partition-filesystem.component';
-
+import { Ubuntu20Component } from './Tutorials/ubuntu20/ubuntu20.component';
+import{ContentfulService} from '../service/contentful.service';
 const routes: Routes=[
 
     {path:'ubuntu-19.04-installation', component:UbuntuinstalltionComponent},
@@ -19,14 +20,21 @@ const routes: Routes=[
     {
         path:'partition-filesystem-on-linux',
         component:PartitionFilesystemComponent
+    },
+
+    {path:'ubuntu-2020',
+     component:Ubuntu20Component
     }
 ]
 
 @NgModule({
-    declarations:[UbuntuTutHomeComponent,UbuntuinstalltionComponent,DetectingOpenportComponent, OpensshComponent, PartitionFilesystemComponent],
+    declarations:[UbuntuTutHomeComponent,UbuntuinstalltionComponent,DetectingOpenportComponent, OpensshComponent, PartitionFilesystemComponent, Ubuntu20Component],
     imports:[
         CommonModule,
         RouterModule.forChild(routes)
+    ],
+    providers:[
+        ContentfulService
     ]
 })
 

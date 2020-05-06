@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+<div class="u-listReset" style="padding-top: 100px;"  *ngFor="let post of posts">
+    
+    <h1>
+        {{ post.fields.title }}
+    </h1> 
+  
+  <div>
+      {{post.fields.publisher}}
+  </div>
+ 
+
+ <div style="font-family: 'Manrope', sans-serif;font-size: 18px;
+ ">
+   {{post.fields.body}} 
+</div>
+
+<div>
+
+<img src="{{post.fields.postImge}}">
+</div>
+  </div>

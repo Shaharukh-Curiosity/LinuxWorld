@@ -14,6 +14,7 @@ exports.ROUTES = [
     '/create-non-root-user-on-kali',
     '/partition-filesystem-on-linux',
     '/10-basic-linux-commands',
-    '/csv-to-json-converter'
+    '/csv-to-json-converter',
+    '/newsletter'
 ];
 //# sourceMappingURL=static.paths.js.map
