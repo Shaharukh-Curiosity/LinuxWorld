@@ -14,8 +14,11 @@ import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 export class Ubuntu20Component implements OnInit {
 
   body = '';
-  imageURL: any;
-  posts: any;
+  title = '';
+  description = '';
+  imageUrl = '';
+  publisher = '';
+  conclusion = '';
   private client = createClient({
     space: environment.contentful.spaceId,
     accessToken: environment.contentful.accessToken
@@ -35,31 +38,23 @@ export class Ubuntu20Component implements OnInit {
   ngOnInit() {
 
 
-    this.client.getEntry('15mYO05tzBCT8PEXbpOR5X')
+    this.client.getEntry('2I08u4FzKWsCRPEoL8Okke')
 
       .then(entry => {
+        
         this.body = entry.fields.body;
+        this.publisher = entry.fields.publisher;
+        this.title = entry.fields.title;
+        console.log(this.title)
+        this.imageUrl = entry.fields.postImge.fields.file.url;
+        this.description = entry.fields.description;
+        this.conclusion=entry.fields.conclusion;
 
         // console.log(entry)
         document.getElementById('textbody').innerHTML = this._returnHtmlFromRichText(this.body);
+        
       })
 
-
-      this.client.getAssets()
-        .then(function(assets){
-          assets.items.map(function(asset){
-            var imageurl='https:'+ asset.fields.file.url;
-            console.log(imageurl)
-            var img=document.createElement("img")
-            img.src=imageurl,
-            img.width=100,
-            img.height=200,
-            img.alt='something went wrong with the image',
-            document.body.appendChild(img);
-          })
-
-        })
-      
 
 
 

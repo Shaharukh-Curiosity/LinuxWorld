@@ -1,28 +1,38 @@
+<html>
+  <head>
+    <title>Ubuntu 20.04 installation</title>
+    <meta charset="utf-8">
+    <meta name="description" content="how to install the ubuntu 20.04 on desktop">
+    <link href="localhost:4200/ubuntu-2020" rel="canonical">
+  </head>
+</html>
 <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 <div class="container">
 
 
-  <div class="u-listReset" style="padding-top: 100px;" *ngFor="let post of posts">
+<div>
 
-    <h1>
-      {{ post.fields.title }}
-    </h1>
+<h1>
+    {{title}}
+</h1>
 
-    <div>
-      {{post.fields.publisher}}
-    </div>
+<div>
+  Written By:{{publisher}}
+</div>
 
 
-    <div style="font-family: 'Manrope', sans-serif;font-size: 18px;
-                        ">
-      {{body}}
-    </div>
-
-    <div>
-
-    </div>
-  </div>
-  <div id="textbody">
+  <div>
+          {{description}}
 
   </div>
+ 
+</div>
+<div id="textbody">
+
+</div>
+<div>
+  {{conclusion}}
+
+</div>
+
 </div>
