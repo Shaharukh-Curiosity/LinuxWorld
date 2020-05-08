@@ -7,7 +7,6 @@ import{DetectingOpenportComponent} from './Tutorials/detecting-openport/detectin
 import {OpensshComponent}from './Tutorials/openssh/openssh.component';
 import { PartitionFilesystemComponent } from './Tutorials/partition-filesystem/partition-filesystem.component';
 import { Ubuntu20Component } from './Tutorials/ubuntu20/ubuntu20.component';
-import{ContentfulService} from '../service/contentful.service';
 const routes: Routes=[
 
     {path:'ubuntu-19.04-installation', component:UbuntuinstalltionComponent},
@@ -22,7 +21,7 @@ const routes: Routes=[
         component:PartitionFilesystemComponent
     },
 
-    {path:'ubuntu-2020',
+    {path:'how-to-install-ubuntu-20.04',
      component:Ubuntu20Component
     }
 ]
@@ -32,9 +31,6 @@ const routes: Routes=[
     imports:[
         CommonModule,
         RouterModule.forChild(routes)
-    ],
-    providers:[
-        ContentfulService
     ]
 })
 

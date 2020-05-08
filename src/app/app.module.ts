@@ -19,16 +19,14 @@ import { LinuxCommandComponent } from './linux-command/linux-command.component';
 import { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
  import{environment} from '../environments/environment';
 import { NewsletterComponent } from './newsletter/newsletter.component';
-import { ContentfulService } from './service/contentful.service';
-import { MdToHtmlPipe } from './md-to-html.pipe';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent, MdToHtmlPipe
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent
   ],
   imports: [
     
@@ -52,7 +50,6 @@ import { MdToHtmlPipe } from './md-to-html.pipe';
     FormsModule
      
   ],
-  providers: [ContentfulService],
-  bootstrap: [AppComponent]
+   bootstrap: [AppComponent]
 })
 export class AppModule { }
