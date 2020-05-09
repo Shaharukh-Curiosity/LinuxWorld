@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { createClient } from 'contentful'
 import { environment } from '../../../../environments/environment'
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
-
+import{Meta,Title} from '@angular/platform-browser';
 @Component({
   selector: 'app-ubuntu20',
   templateUrl: './ubuntu20.component.html',
@@ -27,7 +27,7 @@ export class Ubuntu20Component implements OnInit {
     accessToken: environment.contentful.accessToken
   })
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private meta:Meta, private title:Title) {
 
   }
 
@@ -40,7 +40,13 @@ export class Ubuntu20Component implements OnInit {
 
   ngOnInit() {
 
-
+    
+    this.title.setTitle('how to install Ubuntu 20.04 LTS');
+    this.meta.addTag({
+      name:'how to install ubuntu 20.04 LTS',
+      content:'install ubuntu 20.04 LTS with steps by steps guides , this can be very helpful to begginers'
+    })
+    
     this.client.getEntry('2I08u4FzKWsCRPEoL8Okke')
     .then((entry)=>{
       this.post_array=entry;

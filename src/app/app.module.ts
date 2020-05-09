@@ -17,7 +17,6 @@ import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonro
 import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
 import { LinuxCommandComponent } from './linux-command/linux-command.component';
 import { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
- import{environment} from '../environments/environment';
 import { NewsletterComponent } from './newsletter/newsletter.component';
  
 @NgModule({
@@ -31,12 +30,12 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
   imports: [
     
     BrowserModule,
+    BrowserAnimationsModule,
     BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
     NgbModule,
     MatCardModule,
     MatInputModule,
-    BrowserAnimationsModule,
     MatButtonModule,
     ReactiveFormsModule,
     MatFormFieldModule,
