@@ -15,7 +15,7 @@ export const environment = {
     measurementId: "G-08JZMT9B9H"
      },
  
- contentful:{
+  contentful:{
    spaceId:'yvl1l203rxvp',
    accessToken:'ZhblNViMfxaQu4xTW68v6dTNo-qT1mo2SLEb8arojTc' 
  }

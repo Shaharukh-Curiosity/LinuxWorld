@@ -9,7 +9,10 @@ export const environment = {
     messagingSenderId: "764063040623",
     appId: "1:764063040623:web:e703e34d8ea15eea3c799a",
     measurementId: "G-08JZMT9B9H"
-     }
+     },
  
-    
+  contentful:{
+   spaceId:'yvl1l203rxvp',
+   accessToken:'ZhblNViMfxaQu4xTW68v6dTNo-qT1mo2SLEb8arojTc' 
+ }
 };

@@ -14,7 +14,6 @@ exports.ROUTES = [
     '/create-non-root-user-on-kali',
     '/partition-filesystem-on-linux',
     '/10-basic-linux-commands',
-    '/csv-to-json-converter',
-    '/newsletter'
+    '/how-to-install-ubuntu-20.04'
 ];
 //# sourceMappingURL=static.paths.js.map
