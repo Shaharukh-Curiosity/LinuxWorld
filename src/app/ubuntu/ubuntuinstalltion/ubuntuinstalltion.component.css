@@ -1,7 +1,8 @@
 .container{
 
 padding-top:95px;
-
+color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+ 
 
 }
  
@@ -14,10 +15,11 @@ img{
     width:70%;
     height:70%;
 }
-h1{ 
-    color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;
+h1{
+    color:black; font-family: 'Merriweather', serif;line-height: 50px;color:rgb(50,59,69);font-size: 38px;font-weight: bold;
   
-  } 
+  }
+    
 
 
 mat-card{
@@ -26,12 +28,7 @@ margin:2%;
 font-family: 'Roboto Slab', serif;
  
 }
-
-span,p{ font-family: 'Open Sans', sans-serif;
-Font-weight: 400;
-font-size: 18px;
-   
-}
+ 
  
 tr{
     padding:5%;

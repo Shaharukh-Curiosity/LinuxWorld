@@ -34,7 +34,7 @@ const routes: Routes = [
     component:ChromeExtensionComponent
   },
   {
-    path:'10-basic-linux-commands',
+    path:'top-useful-linux-command',
     component:LinuxCommandComponent
   },
 
