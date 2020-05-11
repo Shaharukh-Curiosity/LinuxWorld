@@ -7,15 +7,21 @@
 
 }
 
+ul li a:hover{
+  color:red;
+}
 
 ul li a{
-  color: white ;
+  color:blue ;
+  font-weight: bold;;
   margin-right: 20px;
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
 
   Font-weight: 400;
 
 }
-
- 
+ img{
+   width:70%;
+   height:70%;
+ }

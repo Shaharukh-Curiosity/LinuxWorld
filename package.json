@@ -33,6 +33,7 @@
     "@angular/pwa": "^0.803.21",
     "@angular/router": "~8.0.0",
     "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@contentful/rich-text-types": "^14.1.0",
     "@mobiscroll/angular-lite": "^4.7.2",
     "@ng-bootstrap/ng-bootstrap": "^4.2.1",
     "@nguniversal/common": "^6.0.0",

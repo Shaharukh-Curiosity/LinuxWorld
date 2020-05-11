@@ -21,6 +21,7 @@ export class Ubuntu20Component implements OnInit {
     publisher: '',
     conclusion: ''
   };
+  imgUrl='';
 
   private client = createClient({
     space: environment.contentful.spaceId,
@@ -40,7 +41,7 @@ export class Ubuntu20Component implements OnInit {
 
   ngOnInit() {
 
-    
+ 
     this.title.setTitle('how to install Ubuntu 20.04 LTS');
     this.meta.addTag({
       name:'how to install ubuntu 20.04 LTS',
@@ -50,7 +51,7 @@ export class Ubuntu20Component implements OnInit {
     this.client.getEntry('2I08u4FzKWsCRPEoL8Okke')
     .then((entry)=>{
       this.post_array=entry;
-      
+      this.imgUrl= this.post_array.fields.postImge.fields.file.url
       this.post_Data.title=this.post_array.fields.title;
       this.post_Data.publisher=this.post_array.fields.publisher;
       this.post_Data.publishAt=entry.sys.createdAt;
