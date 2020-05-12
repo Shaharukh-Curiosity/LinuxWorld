@@ -19,62 +19,32 @@
 
 }
 
-span,p{
-  font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-Font-weight: 400;
-  font-size: 15px;
  
+h2{
+  color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;font-weight: bold;
+
 }
-
-h1{
-  font-family: 'Roboto Slab', serif;
-  font-size:26px;
-
-
-} 
-h6{
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  padding:22%
-  
-}
-h1{
-  font-family: 'Roboto Slab', serif;
-  font-size:32px;
-
-} 
+ 
+ .btn-align{
+   margin-left: 50px;;
+ }
 
 a{
-  padding:2%;
-  margin:2%;
+  
+  text-decoration: none;
+  color:black;
 }
 a.custom-card,
 a.custom-card:hover {
   color: inherit;
 } 
-
-
-.container{
-  padding-top:50px;
-
-  
-    color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
  
-  
-}
-
-p{
-  padding:2%;
-  margin:2%;
-} 
-table{
-  padding:2%;
-  margin:25;
-}
+ h5{color:#2196F3}
 
  
+
+.container-fluid{
+  padding-top:30px;
+  color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+
+}
