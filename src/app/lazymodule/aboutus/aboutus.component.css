@@ -1,5 +1,5 @@
 .container{
-    margin-top:110px;
+    margin-top:60px;
 
 }
 body{
@@ -19,4 +19,7 @@ body{
   .img-fluid {
      height: auto;
   }
- 
+ p,h4,h5{
+  color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+
+ }

@@ -18,8 +18,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.titleservice.setTitle('visionrosetta:Linux How-To Tutorials and Guides'); 
     this.meta.addTag({
-      name: 'Ubuntu,OpenSSH,KaliLinux,Shell Script, Basic Useful Command',
-      content: 'Ubuntu, Kali Linux & Shell Script Tutorials'
+      name: 'Ubuntu,OpenSSH,KaliLinux and Useful Command',
+      content: 'Ubuntu, Kali Linux Tutorials'
  
   })
 }

@@ -10,37 +10,21 @@
         width:80%;
         height:80%;
     }
-  
+    h1{
+        color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;font-weight: bold;
+      
+      }
     
     mat-card{
     
     font-family: 'Roboto Slab', serif;
      
     }
-    h2{
-        padding-top:60px;
-        
-        color:blue;
-        font-family: 'Poppins', sans-serif;
-
     
+    
+    span,p,h2,table{
+        color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+ 
     }
     
-    span,p{
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-        
-        
-    
-        Font-weight: 400;
-    
-        font-size: 18px;
-        
-
-    }
-    
-    tr{
-        
-    }
+   

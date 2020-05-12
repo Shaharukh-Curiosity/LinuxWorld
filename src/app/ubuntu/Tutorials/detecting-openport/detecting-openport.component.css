@@ -1,5 +1,5 @@
 .container{
-    padding-top:110px;
+    padding-top:60px;
    
     }
     body{
@@ -10,7 +10,10 @@
         width:100%;
         height:80%;
     }
-  
+    h1{
+        color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;font-weight: bold;
+      
+      }
     .breadcrumb{
         background-color:white;
     }
@@ -29,17 +32,7 @@
     }
     
     span,p{
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-        
-        
-    
-        Font-weight: 400;
-    
-        font-size: 18px;
-        
-
+        color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+     
     }
     
