@@ -1,6 +1,7 @@
 .container{
-    padding-top:100px;
-    
+    padding-top:60px;
+    color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+  
 }
 body{
     padding:0%;
@@ -9,3 +10,7 @@ body{
  .mat-card{
      background-color:#EFF0F1;
  }
+ h1{
+    color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;font-weight: bold;
+  
+  }
