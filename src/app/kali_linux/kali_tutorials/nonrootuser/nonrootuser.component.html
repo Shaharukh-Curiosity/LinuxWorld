@@ -1,14 +1,20 @@
 <!DOCTYPE html>
+
 <head>
-<meta charset="utf-8">
-<meta name="name" content="create non root user account on kali linux">
-<meta name="description" content="in this tutorials we will learn how to create non root account with specified limitation
+    <meta charset="utf-8">
+    <meta name="name" content="create non root user account on kali linux">
+    <meta name="keyword" content="non root account on kali linux">
+    <meta name="description" content="in this tutorials we will learn how to create non root account with specified limitation
 and what are benifits to create non root user account and why some tools not run on root previlage">
-<link rel="canonical" href="https://www.visionrosetta.in/create-non-root-user-on-kali">
-<title>Create a New Non Root User On Kali Linux</title>
-<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://www.visionrosetta.in/create-non-root-user-on-kali">
+    <title>Create a New Non Root User On Kali Linux</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans|Roboto|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <meta http-equiv="Cache-Control" content="max-age=200" />
 
 </head>
+
 <body>
 
     <div class="container">
@@ -17,15 +23,19 @@ and what are benifits to create non root user account and why some tools not run
                 <div class="card">
                     <div class="card-body">
 
-                        <h1 tyle="font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;"> 
+                        <h1
+                            tyle="font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;">
                             Create Non Root User On Kali Linux
                         </h1>
                         <span style="font-size: 13px;">
                             Written By <a routerLink="#">Shaharukh Parmar</a> on 7 Oct,2019
-                          </span><br><hr>
-                        <p>  Kali Linux is a Debian based Linux distribution aimed at advanced penetrating testing and security audit
-                            
-                         ,Kali Linux comes with post-installation of software which is used for security purposes, forensic science, and reverse engineering
+                        </span><br>
+                        <hr>
+                        <p> Kali Linux is a Debian based Linux distribution aimed at advanced penetrating testing and
+                            security audit
+
+                            ,Kali Linux comes with post-installation of software which is used for security purposes,
+                            forensic science, and reverse engineering
 
                         </p>
                         <p>
@@ -34,111 +44,122 @@ and what are benifits to create non root user account and why some tools not run
 
                                 Why need to create non root user
                             </b><br>
-Kali Linux by default installed as the root user so security concern always there And some tools let’s not allow to run on  root user 
-<br>For Instance: Google Chrome
+                            Kali Linux by default installed as the root user so security concern always there And some
+                            tools let’s not allow to run on root user
+                            <br>For Instance: Google Chrome
 
                         </p>
 
                         <p><b>Which command are used to create new user</b></p>
 
                         <p>
-                            We all are aware of most popular command <b>useradd</b> some time as system administrator asked to create a new user on Linux with some specific limitation that time we can create a new user with useradd command 
+                            We all are aware of most popular command <b>useradd</b> some time as system administrator
+                            asked to create a new user on Linux with some specific limitation that time we can create a
+                            new user with useradd command
                         </p>
                         <p>
                             <b>
                                 Perks of having Non Root Account on Kali
                             </b></p>
-                               <ul>
-                                    <li>
+                        <ul>
+                            <li>
 
-                                            mitigate the problem of system vulnerability
- 
-                                    </li>
-                                    <li>
+                                mitigate the problem of system vulnerability
 
-                                            user can perform decided task
- 
-                                    </li>
-                                </ul>
+                            </li>
+                            <li>
+
+                                user can perform decided task
+
+                            </li>
+                        </ul>
 
 
-                                <p style="color:blue;"><b>Steps By Steps Guide of Create New Non Root Account</b></p>
+                        <p style="color:blue;"><b>Steps By Steps Guide of Create New Non Root Account</b></p>
 
-                                <p>
-                                    <b>Steps:1
+                        <p>
+                            <b>Steps:1
 
-                                    </b><br>
-                                    Open the Terminal and follow given instruction
-                                </p>
- 
-                        
-                                <p>
-                                    <b>Step:2</b>
-                                      <br>
-                                      entered following command
-                                      <br>
-                                      <b></b><br>
-                                     <mat-card>
-                                            $ useradd -m alpha(username) 
-                                     </mat-card><br>
-                                    -m is here used for create account under home directory
-                                    </p>
+                            </b><br>
+                            Open the Terminal and follow given instruction
+                        </p>
 
-                                        <div class="col-sm">
-                                            <img  class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/useradd.png"   alt="useradd command are used to create new user on linux system">
-                                        </div>
 
-                                            <br>
+                        <p>
+                            <b>Step:2</b>
+                            <br>
+                            entered following command
+                            <br>
+                            <b></b><br>
+                            <mat-card>
+                                $ useradd -m alpha(username)
+                            </mat-card><br>
+                            -m is here used for create account under home directory
+                        </p>
 
-                                     <p>
-                                         <b>
-                                                Step:3
-                                         </b>
-                                         <p>
-                                             Next we have to set Password for account we have created 
-                                            </p>
-                                            
-                                        <mat-card>
-                                            $ passwd alpha
-                                     </mat-card>  <br>
+                        <div class="col-sm">
+                            <img class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/useradd.png"
+                                alt="useradd command are used to create new user on linux system">
+                        </div>
 
-                                        <div class="col-sm">
-                                            <img  class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/setpassword.png"   alt="passwd command are used to set password for created account">
-                                        </div><br>
-                                         
-                                     <p>
-                                         <b>Step:4</b><br>
-                                         Now we have to add this user account to sudo group so in future there is need raise they can use for instance any software installation etc
-                                     </p>
+                        <br>
 
-                                     <mat-card>
-                                            $ usermod -a -G sudo alpha
-                                     </mat-card><br>
+                        <p>
+                            <b>
+                                Step:3
+                            </b>
+                            <p>
+                                Next we have to set Password for account we have created
+                            </p>
 
-                                     <div class="col-sm">
-                                            <img  class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/addusertosudogroup.png"   alt="usermod command are used to give sudo parmission to the particular account in linux">
-                                     </div><br>
- 
-   
-                                     <p><b>
-                                            Step:5
-                                   
-                                     </b><br>
-                                     Now we will change login shell for new created user 
+                            <mat-card>
+                                $ passwd alpha
+                            </mat-card> <br>
 
-                                       </p>
-                                       <mat-card>
-                                            $ chsh -s /bin/bash alpha
-                                     </mat-card>  <br>
+                            <div class="col-sm">
+                                <img class="img-fluid"
+                                    src="assets/images/kalilinux/Tutorials/nonrootuser/setpassword.png"
+                                    alt="passwd command are used to set password for created account">
+                            </div><br>
 
-                                     <div class="col-sm">
-                                            <img  class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/allocatebashshell.png"   alt="usermod command are used to give sudo parmission to the particular account in linux">
-                                     </div><br>
+                            <p>
+                                <b>Step:4</b><br>
+                                Now we have to add this user account to sudo group so in future there is need raise they
+                                can use for instance any software installation etc
+                            </p>
 
-                                     That's all we have created new non root user account 
- 
+                            <mat-card>
+                                $ usermod -a -G sudo alpha
+                            </mat-card><br>
 
-                                        
+                            <div class="col-sm">
+                                <img class="img-fluid"
+                                    src="assets/images/kalilinux/Tutorials/nonrootuser/addusertosudogroup.png"
+                                    alt="usermod command are used to give sudo parmission to the particular account in linux">
+                            </div><br>
+
+
+                            <p><b>
+                                    Step:5
+
+                                </b><br>
+                                Now we will change login shell for new created user
+
+                            </p>
+                            <mat-card>
+                                $ chsh -s /bin/bash alpha
+                            </mat-card> <br>
+
+                            <div class="col-sm">
+                                <img class="img-fluid"
+                                    src="assets/images/kalilinux/Tutorials/nonrootuser/allocatebashshell.png"
+                                    alt="usermod command are used to give sudo parmission to the particular account in linux">
+                            </div><br>
+
+                            That's all we have created new non root user account
+
+
+
                     </div>
                 </div>
             </div>

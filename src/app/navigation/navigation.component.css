@@ -2,22 +2,29 @@
 .navbar-default {
   height: 10%;
   background:#262626;
+  margin-left: 25%;
 
 }
 
 ul li a:hover{
-  color:red;
+  color:blue;
 }
 
 ul li a{
-  color:blue ;
+  color:white ;
+  
   font-weight: bold;;
   margin-right: 20px;
   font-size: 15px;
   Font-weight: 400;
+ 
 
 }
  img{
-   width:70%;
-   height:70%;
+   width:80%;
+   height:80%;
+ }
+ ul{
+   margin-left: 20%;
+
  }
