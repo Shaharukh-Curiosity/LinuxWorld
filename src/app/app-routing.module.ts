@@ -18,6 +18,12 @@ const routes: Routes = [
 
   {path:'',loadChildren: './ubuntu/ubuntu.module#UbuntuModule'},
 
+  {path:'',
+  loadChildren:()=> import('./shell_script_tut/shell-script.module').then(
+    mod => mod.ShellScriptModule
+  )
+ },
+
   //{path:'', loadChildren: './kali_linux/kalilinux.module#KalilinuxModule'},
   
   {path:'create-non-root-user-on-kali', component:NonrootuserComponent},
