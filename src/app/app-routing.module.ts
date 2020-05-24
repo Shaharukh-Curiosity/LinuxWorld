@@ -15,12 +15,9 @@ const routes: Routes = [
 
   {path:'',loadChildren: './ubuntu/ubuntu.module#UbuntuModule'},
 
-  {path:'',
-  loadChildren:()=> import('./shell_script_tut/shell-script.module').then(
-    mod => mod.ShellScriptModule
-  )
- },
- 
+  {path:'',  loadChildren:'./shell_script_tut/shell-script.module#ShellScriptModule'},
+    
+
   {path:'create-non-root-user-on-kali', component:NonrootuserComponent},
 
   {path: 'install-latest-nodejs-npm-on-ubuntu', component: InstallnodejsubuntuComponent},

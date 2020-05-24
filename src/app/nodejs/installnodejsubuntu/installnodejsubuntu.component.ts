@@ -44,7 +44,7 @@ export class InstallnodejsubuntuComponent implements OnInit {
     });
     this.client.getEntry('2JDzAFtGb8jSd8CIsVfUiw')
     .then((entry => {
-      console.log(entry)
+      
       this.post_object=entry;
       this.Post_Data.title=this.post_object.fields.title;
       this.Post_Data.image=this.post_object.fields.postImge.fields.file.url;
