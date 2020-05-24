@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>http://visionrosetta.in/</loc><priority>1</priority></url>
-<url><loc>https://visionrosetta.in/ubuntu-19.04-installation</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/ubuntu-nodejs-installation</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/ubuntu-openssh</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/detecting-open-port-linux</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/create-non-root-user-on-kali</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/partition-filesystem-on-linux</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/top-useful-linux-command</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/how-to-install-ubuntu-20.04</loc><priority>0.5</priority></url>
-<url><loc>https://visionrosetta.in/introduction-linux-shell-scripting</loc><priority>0.5</priority></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://visionrosetta.in/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+  <loc>https://visionrosetta.in/top-useful-linux-command/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/ubuntu-19.04-installation/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/create-non-root-user-on-kali/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+  <loc>https://visionrosetta.in/ubuntu-openssh/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/detecting-open-port-linux/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/partition-filesystem-on-linux/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/how-to-install-ubuntu-20.04/</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+<url>
+  <loc>https://visionrosetta.in/introduction-linux-shell-scripting</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>https://visionrosetta.in/install-latest-nodejs-npm-on-ubuntu</loc>
+  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 </urlset>

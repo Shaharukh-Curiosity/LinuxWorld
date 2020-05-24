@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ShellScriptHomeComponent } from './shell-script-home/shell-script-home.component';
 import { Router, Routes, RouterModule } from '@angular/router';
 import { ShellIntroComponent } from './shell_script_tutorials/shell-intro/shell-intro.component';
+import { ConditionalStatmentComponent } from './shell_script_tutorials/conditional-statment/conditional-statment.component';
 
 const routes: Routes = [
   {
@@ -12,11 +13,15 @@ const routes: Routes = [
   {
     path:'introduction-linux-shell-scripting',
     component:ShellIntroComponent
+  },
+  {
+    path:'conditional-statement-in-shell-script',
+    component:ConditionalStatmentComponent
   }
 ]
  
 @NgModule({
-  declarations: [ShellScriptHomeComponent, ShellIntroComponent],
+  declarations: [ShellScriptHomeComponent, ShellIntroComponent, ConditionalStatmentComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes)

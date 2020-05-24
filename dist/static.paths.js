@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ROUTES = [
     '/',
     '/ubuntu-19.04-installation',
-    '/ubuntu-nodejs-installation',
+    '/install-latest-nodejs-npm-on-ubuntu',
     '/ubuntu-openssh',
     '/sitemap',
     '/aboutus',
