@@ -10,7 +10,7 @@ export class OpensshComponent implements OnInit {
   constructor( private meta: Meta, private titleservice: Title) { }
 
   ngOnInit() {
-    this.titleservice.setTitle('Open SSH Installation');
+    this.titleservice.setTitle('Open-SSH Installation');
     this.meta.addTag({
       name: 'open ssh',
       content: 'here we were showing how to install open ssh and use it on linux machine'

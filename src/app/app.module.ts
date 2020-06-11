@@ -14,18 +14,16 @@ import { HomeComponent } from './home/home.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 import { KaliTutorialsHomeComponent } from './kali_linux/kali-tutorials-home/kali-tutorials-home.component';
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
-import { ChromeExtensionComponent } from './chrome-extension/chrome-extension.component';
 import { LinuxCommandComponent } from './linux-command/linux-command.component';
-import { GoogleSheetComponent } from './google/google-sheet/google-sheet.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
- 
+import{ErrorComponent} from './lazymodule/error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
     FooterComponent, 
-    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent , NonrootuserComponent, ChromeExtensionComponent, LinuxCommandComponent, GoogleSheetComponent, NewsletterComponent
+    InstallnodejsubuntuComponent, KaliTutorialsHomeComponent ,ErrorComponent, NonrootuserComponent, LinuxCommandComponent, NewsletterComponent
   ],
   imports: [
     

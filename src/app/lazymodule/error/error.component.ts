@@ -25,7 +25,5 @@ export class ErrorComponent implements OnInit {
     this.router.navigate(['']);
   }
 
-  NavigateToContact(){
-  this.router.navigate(['contact_us']);
-  }
+  
 }

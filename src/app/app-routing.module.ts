@@ -5,7 +5,7 @@ import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/install
 import {NonrootuserComponent} from'./kali_linux/kali_tutorials/nonrootuser/nonrootuser.component';
 import{KaliTutorialsHomeComponent} from './kali_linux/kali-tutorials-home/kali-tutorials-home.component'
 import{LinuxCommandComponent} from './linux-command/linux-command.component';
- 
+import{ErrorComponent} from './lazymodule/error/error.component'; 
 
 const routes: Routes = [
 
@@ -31,6 +31,11 @@ const routes: Routes = [
   {
     path:'top-useful-linux-command',
     component:LinuxCommandComponent
+  },
+
+  {
+    path:'**',
+    component:ErrorComponent
   }
  
 
