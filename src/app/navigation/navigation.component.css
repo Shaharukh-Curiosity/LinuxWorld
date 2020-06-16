@@ -1,28 +1,27 @@
- 
+
 .navbar-default {
-  height: 10%;
-  background:#262626;
-  margin-left: 25%;
-   
+height: 10%;
+background:#262626;
+margin-left: 25%;
+
 }
 
 ul li a:hover{
-  color:red;
+color:red;
 }
 
 ul li a{
-  color:blue ;
-  
-  font-weight: bold;
-  margin-right: 10px;
-  font-size: 19px;
-  Font-weight: 400;
-  font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 19px;
-  
-}
-  
- ul{
-   margin-left: 20%;
 
- }
- h2{color:rebeccapurple}
+font-weight: bold;
+margin-right: 10px;
+font-size: 19px;
+Font-weight: 400;
+font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 19px;
+
+}
+
+ul{
+margin-left: 20%;
+
+}
+h2{color:rebeccapurple}
