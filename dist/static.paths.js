@@ -15,6 +15,8 @@ exports.ROUTES = [
     '/partition-filesystem-on-linux',
     '/top-useful-linux-command',
     '/how-to-install-ubuntu-20.04',
-    '/introduction-linux-shell-scripting'
+    '/introduction-linux-shell-scripting',
+    '/kali-linux-tutorials',
+    '/shell-script-tutorials'
 ];
 //# sourceMappingURL=static.paths.js.map
