@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="name" content="create non root user account on kali linux">
@@ -8,7 +9,7 @@
 and what are benifits to create non root user account and why some tools not run on root previlage">
     <link rel="canonical" href="https://www.visionrosetta.in/create-non-root-user-on-kali">
     <title>Create a New Non Root User On Kali Linux</title>
-    
+
     <meta http-equiv="Cache-Control" content="max-age=200" />
 
 </head>
@@ -29,7 +30,9 @@ and what are benifits to create non root user account and why some tools not run
                             Written By: Shaharukh Parmar: 7 Oct,2019
                         </span><br>
                         <hr>
-                        <p>  Kali Linux is a Debian based Linux distribution aimed at advanced penetrating testing and security audit, Kali Linux comes with post-installation of software which is used for security purposes, forensic science, and reverse engineering
+                        <p> Kali Linux is a Debian based Linux distribution aimed at advanced penetrating testing and
+                            security audit, Kali Linux comes with post-installation of software which is used for
+                            security purposes, forensic science, and reverse engineering
 
 
                         </p>
@@ -103,55 +106,54 @@ and what are benifits to create non root user account and why some tools not run
                             <b>
                                 Step:3
                             </b>
-                            <p>
-                                Next, we have to set Password for an account we have created
+                        <p>
+                            Next, we have to set Password for an account we have created
 
                             <mat-card>
                                 $ passwd alpha
                             </mat-card> <br>
 
-                            <div class="col-sm">
-                                <img class="img-fluid"
-                                    src="assets/images/kalilinux/Tutorials/nonrootuser/setpassword.png"
-                                    alt="passwd command are used to set password for created account">
-                            </div><br>
+                        <div class="col-sm">
+                            <img class="img-fluid" src="assets/images/kalilinux/Tutorials/nonrootuser/setpassword.png"
+                                alt="passwd command are used to set password for created account">
+                        </div><br>
 
-                            <p>
-                                <b>Step:4</b><br>
-                                Now we have to add this user account to sudo group so in future there is need raise they
-                                can use for instance any software installation etc
-                            </p>
+                        <p>
+                            <b>Step:4</b><br>
+                            Now we have to add this user account to sudo group so in future there is need raise they
+                            can use for instance any software installation etc
+                        </p>
 
-                            <mat-card>
-                                $ usermod -a -G sudo alpha
-                            </mat-card><br>
+                        <mat-card>
+                            $ usermod -a -G sudo alpha
+                        </mat-card><br>
 
-                            <div class="col-sm">
-                                <img class="img-fluid"
-                                    src="assets/images/kalilinux/Tutorials/nonrootuser/addusertosudogroup.png"
-                                    alt="usermod command are used to give sudo parmission to the particular account in linux">
-                            </div><br>
-
-
-                            <p><b>
-                                    Step:5
-
-                                </b><br>
-                                Now we will change the login shell for the newly created user
+                        <div class="col-sm">
+                            <img class="img-fluid"
+                                src="assets/images/kalilinux/Tutorials/nonrootuser/addusertosudogroup.png"
+                                alt="usermod command are used to give sudo parmission to the particular account in linux">
+                        </div><br>
 
 
-                            </p>
-                            <mat-card>
-                                $ chsh -s /bin/bash alpha
-                            </mat-card> <br>
+                        <p><b>
+                                Step:5
 
-                            <div class="col-sm">
-                                <img class="img-fluid"
-                                    src="assets/images/kalilinux/Tutorials/nonrootuser/allocatebashshell.png"
-                                    alt="usermod command are used to give sudo parmission to the particular account in linux">
-                            </div><br>
+                            </b><br>
+                            Now we will change the login shell for the newly created user
 
-                            That's all we have created new non root user account
+
+                        </p>
+                        <mat-card>
+                            $ chsh -s /bin/bash alpha
+                        </mat-card> <br>
+
+                        <div class="col-sm">
+                            <img class="img-fluid"
+                                src="assets/images/kalilinux/Tutorials/nonrootuser/allocatebashshell.png"
+                                alt="usermod command are used to give sudo parmission to the particular account in linux">
+                        </div><br>
+
+                        That's all we have created new non root user account
 
 
 
@@ -160,8 +162,10 @@ and what are benifits to create non root user account and why some tools not run
             </div>
         </div>
     </div>
-    <div id="disqus_thread"></div>    
+    <div id="disqus_thread"></div>
 
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
 </body>
+
 </html>
