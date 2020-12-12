@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>How to install open-ssh on ubuntu 19.04/20.04/16.04</title>
+    <meta http-equiv="Cache-Control" content="max-age=200" />
+    <meta name="keyword" content="how to install the open ssh on ubuntu">
+    <meta name="description" content="install the open ssh on ubuntu 18.04,19.04,20.04">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  </head>
+
+  <body>
+      
+  </body>
+</html>
+
+<div class="container">
+
+    <h2 style="color:black;font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;">How to Install Open SSH On Linux</h2>
+    <br>
+    <span style="font-size: 13px;">
+      Written By:Shaharukh Parmar :  7 Oct,2019
+    </span>
+          <hr>
+        <div class="row">
+          <div class="col">
+              <span>
+                  <b>Open SSH</b> , is also known as OpenBSD  Secure Shell, is a suite of secure networking utilities based on the Secure Shell (SSH) protocol, which provides a secure channel over an unsecured network in a client–server architecture
+                </span>
+               
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>
+             
+              <div>
+              <br>
+                <img style="width:50%;height:50%" src="assets/images/openssh/openssh.gif" alt="error">
+           <hr>
+              </div>
+            </span>
+          </div>  
+      
+        </div>
+      
+        <hr>
+        
+      <hr>
+        <h3 style="color:blue;padding-top:2%;">Open SSH Installation Guides</h3>
+        <br>
+      
+      <table>
+        <tr>
+          <td>
+        
+              <div style="background-color:#E6E9EC;;width:80%; border-radius: 2%">
+              <p style="font-family: 'Roboto', sans-serif;
+              "> 
+                 1: Open the terminal application for Ubuntu desktop.<br>
+                 2: Type sudo apt-get install openssh-server<br>
+                 3: Enable the ssh service by typing sudo systemctl enable ssh<br>
+                 4: Start the ssh service by typing sudo systemctl start ssh<br>
+                 5: Test it by login into the system using ssh user@server-name
+                  
+
+              </p>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>Step 2:Type sudo apt-get install openssh-server</b><hr>
+                
+               
+
+                <div style="background-color:#E6E9EC;width:80%; border-radius: 2%">
+                  <br>
+                
+                  <p>
+                    $ sudo apt-get install openssh-server
+    
+                  </p>
+                  
+                </div>
+                Guys, it already installed on my machine , but when you run on your machine you get different result
+            </td>
+
+          </tr><br>
+          <tr>
+              <img src="assets/images/openssh/opensshinstalled.png" alr="error">
+          </tr>
+      
+         <br><br>
+          <tr>
+              <b>Step 3: Enable Open SSH Service </b><br><br><hr>
+              <p> move ahead and type given below command to enabled open ssh service on machine, <br>
+               <b> keep one thing in  mind run this command with root permission otherwise error pop up</b>
+               
+              </p>
+               
+              <div style="background-color:#E6E9EC;width:80%; border-radius: 2%">
+               
+                <p><br>
+                  $ sudo systemctl enable ssh
+                </p>
+                
+              
+              </div>
+          </tr>
+
+           
+          <tr>
+              <img src="assets/images/openssh/sshenable.png" alr="error">
+          </tr>
+      
+          <br><br>
+          
+
+           <tr>
+              <b>Step 4: Start SSH Service </b><br><br><hr>
+              <p> move ahead and type given below command to start open ssh service on machine, <br>
+               <b> keep one thing in  mind run this command with root permission otherwise error pop up</b>
+               
+              </p>
+               
+              <div style="background-color:#E6E9EC;;width:80%; border-radius: 2%">
+               
+                <p><br>
+                  $ sudo systemctl start ssh
+                </p>
+                
+              
+              </div><br>
+          </tr>
+ 
+            <tr>
+               <b>Step 5: Stop SSH Service </b><br><br><hr>
+               <p> move ahead and type given below command to stop open ssh service on machine, <br>
+                <b> keep one thing in  mind run this command with root permission otherwise error pop up</b>
+                
+               </p>
+                
+               <div style="background-color:#E6E9EC;;width:80%; border-radius: 2%;">
+                
+                 <p style="padding:1%;margin:1%;"><br>
+                   $ sudo systemctl stop ssh
+                 </p>
+                 
+               
+               </div>
+           </tr>
+           <tr>
+              <p>you have successfully installed Open SSH on your System , Stay Tuned to get another post releated to Open SSH</p>
+            </tr>
+      </table>
+      
+      </div>
+    
+  <div id="disqus_thread"></div>    
+
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  

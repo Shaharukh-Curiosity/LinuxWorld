@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>How to create a Partition on linux & unix -fdisk,cul,ext4,blkid-VisionRosetta</title>
+        <meta name="description" content="File System and Partition on Unix/Linux steps by steps guide with screenshot">
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="max-age=200" />
+
+        <link rel="canonical" hrfef="https://visionrosetta.in">
+        <meta name="file system and partition on linux and unix" content="we will learn in this tutorials how to create new partition on linux with help of some basic command in chunk of time with screenshot along detailed
+        information">
+        <meta name="twitter:card" content="Steps by Steps Guides to create the partition on unix and linux">
+        <meta name="twitter:site" content="@visionrosetta">
+        <meta name="twitter:url" content="https://visionrosetta.in/">
+        <meta name="twitter:title" content="How to create a partition on linux and unix">
+        <meta name="twitter:description" content="we have detailed explain with GIF and steps by steps guides to How create the partition on linux and unix">
+        <meta name="twitter:image" content="https://visionrosetta.in/assets/images/ubuntu/Tutorials/FileSystem/home1.png">
+        <meta property="og:url"  content="https://visionrosetta.in/partition-filesystem-on-linux" />
+       <meta property="og:type"  content="article" /> 
+       <meta property="og:title" content="How to create a partition on linux and unix" />
+       <meta property="og:description" content="we have detailed explain with GIF and steps by steps guides to How create the partition on linux and unix"/>
+       <meta property="fb:app_id" content="1632104053519386">
+       <meta property="og:locale" content="en_US">
+       <meta property="og:site_name" content="visionrosetta">
+       <meta property="og:image" content="https://visionrosetta.in/assets/images/ubuntu/Tutorials/FileSystem/home1.png">
+       <meta property="og:image:width" content="738">
+       <meta property="og:image:height" content="415">
+       <meta property="article:tag" content="Ubuntu"> 
+       <meta property="article:tag" content="ubuntu">
+     
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        
+                        <h1>File System and Partition on Linux</h1>
+                        <span>
+                            Created By: Shaharukh Parmmar - 01, Feb,2020
+
+                        </span>
+                        <p>
+                            
+                            Storage is basic need of every computer , File System is a logical method of organizing and storing abundance amount of data
+                            in a way that make it easy to manage the files on machine
+                           ,Linux Provide the tools to manage disk partition with help of <strong>
+                               fdisk </strong>, you can view how much partition has been done on disk by running the utility fdisk with <strong>-l</strong>
+                               option
+                      
+                        </p>
+                        
+                        <h5>
+                        Now time to run fdisk with -l to check the partition table on disk
+                        </h5>
+                        <div>
+                            <img src="assets/images/ubuntu/Tutorials/FileSystem/fdisk-l.png" alt="file system and partition with fdisk -l">
+                        </div>
+                        <h6>- some berif information has been printed by fdisk -l</h6>
+                        <span>
+                            <strong>Device</strong>:Name of partition<br>
+                            <strong>Start & End</strong>: Starting to ending address of sector<br>
+                            <strong>Blocks</strong>:Total size of the block<br>
+                            <strong>FileSystem</strong>:partition contain which type of the file, it might be (ext4,ext2,vfat)
+                        </span>
+                        <span>
+                           -  you can also check the size of hard drive with the help of <strong>parted</strong> command with -l option along sudo privilege 
+                        </span>
+                        <div>
+                            <h5 style="color:blue">Steps by Steps Guide</h5><br>
+                            <span>
+                              <strong>
+                                  Steps:1
+                              </strong>
+                              <p>open the terminal and type the following command to create the partition with the help of <strong>
+                                  mkfs
+                              </strong>     command</p>
+                              <div>
+                                <img src="assets/images/ubuntu/Tutorials/FileSystem/mkfs-t-filetype-nameofpart.png" alt="file system and partition with mkfs -t filetype and name of partition">
+                            </div>
+                            <br>
+                            <span>
+                            <strong>Steps:2</strong><br>
+                            <p>
+                                - Go ahead and now time to add this partition entry into fstab <br>
+                                -  to check the UID of partition you can type <strong>
+                                  blkid /dev/nameofpartition
+                                </strong>
+  
+                            </p>
+                        </span>
+
+                        <span>
+                            <strong>Steps:3</strong><br>
+                            <p>- now create the mount point, we need to create the directory to point on partition, lets create
+                                the directory  <br>type: <strong>
+                                 mkdir test
+                                </strong>
+  
+                            </p>
+                        </span>
+                        <h4 style="color:blue;">Remove the Existing File System</h4>
+                           <p>
+                               1:Unmount file system by using <strong>unmount /nameofmountpoint</strong><br>
+                               2:remove the corresposnding entry from the <strong>/stc/fstab</strong><br>
+                               3:Remove the mount point directory <strong>rmdir /nameofmountpoint</strong>
+                           </p>
+                           <br>
+                           <p style="color:red"> 
+                            That's all Stay Tuned to get update related Linux
+                           </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </body>
+</html>

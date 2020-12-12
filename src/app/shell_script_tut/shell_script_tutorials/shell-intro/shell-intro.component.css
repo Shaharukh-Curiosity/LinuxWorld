@@ -1,0 +1,23 @@
+.container{
+padding-top: 50px;
+}
+
+h1{
+color:black; font-family: 'Merriweather', serif;line-height: 45px;color:rgb(50,59,69);font-size: 33px;font-weight: bold;
+
+}  
+
+p,h4{
+color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+
+}
+.card{
+    background-color: white;
+    padding:3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+img{
+    width:60%;
+    height:60%;
+}
