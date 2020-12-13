@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"file":"static.paths.js","sourceRoot":"","sources":["../static.paths.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,GAAG;IACH,4BAA4B;IAC5B,sCAAsC;IACtC,iBAAiB;IACjB,UAAU;IACV,UAAU;IACV,gBAAgB;IAChB,mBAAmB;IACnB,WAAW;IACX,4BAA4B;IAC5B,+BAA+B;IAC/B,gCAAgC;IAChC,2BAA2B;IAC3B,8BAA8B;IAC9B,qCAAqC;IACrC,uBAAuB;IACvB,yBAAyB;IACzB,iCAAiC;CAClC,CAAC"}
-=======
-{"version":3,"file":"static.paths.js","sourceRoot":"","sources":["../static.paths.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,GAAG;IACH,4BAA4B;IAC5B,sCAAsC;IACtC,iBAAiB;IACjB,UAAU;IACV,UAAU;IACV,gBAAgB;IAChB,mBAAmB;IACnB,WAAW;IACX,4BAA4B;IAC5B,+BAA+B;IAC/B,gCAAgC;IAChC,2BAA2B;IAC3B,8BAA8B;IAC9B,qCAAqC;IACrC,uBAAuB;IACvB,yBAAyB;CAC1B,CAAC"}
->>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
+{"version":3,"file":"static.paths.js","sourceRoot":"","sources":["../static.paths.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,GAAG;IACH,4BAA4B;IAC5B,sCAAsC;IACtC,iBAAiB;IACjB,UAAU;IACV,UAAU;IACV,gBAAgB;IAChB,mBAAmB;IACnB,WAAW;IACX,4BAA4B;IAC5B,+BAA+B;IAC/B,gCAAgC;IAChC,2BAA2B;IAC3B,8BAA8B;IAC9B,qCAAqC;IACrC,uBAAuB;IACvB,yBAAyB;IACzB,iCAAiC;IACjC,yBAAyB;CAC1B,CAAC"}
