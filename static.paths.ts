@@ -15,6 +15,7 @@ export const ROUTES = [
   '/how-to-install-ubuntu-20.04',
   '/introduction-linux-shell-scripting',
   '/kali-linux-tutorials',
-  '/shell-script-tutorials'
+  '/shell-script-tutorials',
+  '/ubuntu-20.4-login-loop-problem'
 ];
  
