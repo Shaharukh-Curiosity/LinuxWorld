@@ -2732,6 +2732,7 @@ exports.PartitionFilesystemComponent = PartitionFilesystemComponent;
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./src/app/ubuntu/Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.css.shim.ngstyle.js":
 /*!********************************************************************************************************************!*\
   !*** ./src/app/ubuntu/Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.css.shim.ngstyle.js ***!
@@ -2807,6 +2808,8 @@ exports.UbuntuLoginLoopProblemComponent = UbuntuLoginLoopProblemComponent;
 
 /***/ }),
 
+=======
+>>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
 /***/ "./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.css.shim.ngstyle.js":
 /*!**********************************************************************************!*\
   !*** ./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.css.shim.ngstyle.js ***!
@@ -3055,6 +3058,7 @@ const i5 = __webpack_require__(/*! ./Tutorials/detecting-openport/detecting-open
 const i6 = __webpack_require__(/*! ./Tutorials/openssh/openssh.component.ngfactory */ "./src/app/ubuntu/Tutorials/openssh/openssh.component.ngfactory.js");
 const i7 = __webpack_require__(/*! ./Tutorials/partition-filesystem/partition-filesystem.component.ngfactory */ "./src/app/ubuntu/Tutorials/partition-filesystem/partition-filesystem.component.ngfactory.js");
 const i8 = __webpack_require__(/*! ./Tutorials/ubuntu20/ubuntu20.component.ngfactory */ "./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.ngfactory.js");
+<<<<<<< HEAD
 const i9 = __webpack_require__(/*! ./Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.ngfactory */ "./src/app/ubuntu/Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.ngfactory.js");
 const i10 = __webpack_require__(/*! @angular/common */ "@angular/common");
 const i11 = __webpack_require__(/*! @angular/router */ "@angular/router");
@@ -3066,6 +3070,17 @@ const i16 = __webpack_require__(/*! ./Tutorials/partition-filesystem/partition-f
 const i17 = __webpack_require__(/*! ./Tutorials/ubuntu20/ubuntu20.component */ "./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.ts");
 const i18 = __webpack_require__(/*! ./Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component */ "./src/app/ubuntu/Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.ts");
 var UbuntuModuleNgFactory = i0.ɵcmf(i1.UbuntuModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i2.ɵangular_packages_router_router_lNgFactory, i3.UbuntuinstalltionComponentNgFactory, i4.UbuntuTutHomeComponentNgFactory, i5.DetectingOpenportComponentNgFactory, i6.OpensshComponentNgFactory, i7.PartitionFilesystemComponentNgFactory, i8.Ubuntu20ComponentNgFactory, i9.UbuntuLoginLoopProblemComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(4608, i10.NgLocalization, i10.NgLocaleLocalization, [i0.LOCALE_ID, [2, i10.ɵangular_packages_common_common_a]]), i0.ɵmpd(1073742336, i10.CommonModule, i10.CommonModule, []), i0.ɵmpd(1073742336, i11.RouterModule, i11.RouterModule, [[2, i11.ɵangular_packages_router_router_a], [2, i11.Router]]), i0.ɵmpd(1073742336, i1.UbuntuModule, i1.UbuntuModule, []), i0.ɵmpd(1024, i11.ROUTES, function () { return [[{ path: "ubuntu-19.04-installation", component: i12.UbuntuinstalltionComponent }, { path: "ubuntu-tutorials", component: i13.UbuntuTutHomeComponent }, { path: "detecting-open-port-linux", component: i14.DetectingOpenportComponent }, { path: "ubuntu-openssh", component: i15.OpensshComponent }, { path: "partition-filesystem-on-linux", component: i16.PartitionFilesystemComponent }, { path: "how-to-install-ubuntu-20.04", component: i17.Ubuntu20Component }, { path: "ubuntu-20.4-login-loop-problem", component: i18.UbuntuLoginLoopProblemComponent }]]; }, [])]); });
+=======
+const i9 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i10 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i11 = __webpack_require__(/*! ./ubuntuinstalltion/ubuntuinstalltion.component */ "./src/app/ubuntu/ubuntuinstalltion/ubuntuinstalltion.component.ts");
+const i12 = __webpack_require__(/*! ./ubuntu-tut-home/ubuntu-tut-home.component */ "./src/app/ubuntu/ubuntu-tut-home/ubuntu-tut-home.component.ts");
+const i13 = __webpack_require__(/*! ./Tutorials/detecting-openport/detecting-openport.component */ "./src/app/ubuntu/Tutorials/detecting-openport/detecting-openport.component.ts");
+const i14 = __webpack_require__(/*! ./Tutorials/openssh/openssh.component */ "./src/app/ubuntu/Tutorials/openssh/openssh.component.ts");
+const i15 = __webpack_require__(/*! ./Tutorials/partition-filesystem/partition-filesystem.component */ "./src/app/ubuntu/Tutorials/partition-filesystem/partition-filesystem.component.ts");
+const i16 = __webpack_require__(/*! ./Tutorials/ubuntu20/ubuntu20.component */ "./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.ts");
+var UbuntuModuleNgFactory = i0.ɵcmf(i1.UbuntuModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i2.ɵangular_packages_router_router_lNgFactory, i3.UbuntuinstalltionComponentNgFactory, i4.UbuntuTutHomeComponentNgFactory, i5.DetectingOpenportComponentNgFactory, i6.OpensshComponentNgFactory, i7.PartitionFilesystemComponentNgFactory, i8.Ubuntu20ComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(4608, i9.NgLocalization, i9.NgLocaleLocalization, [i0.LOCALE_ID, [2, i9.ɵangular_packages_common_common_a]]), i0.ɵmpd(1073742336, i9.CommonModule, i9.CommonModule, []), i0.ɵmpd(1073742336, i10.RouterModule, i10.RouterModule, [[2, i10.ɵangular_packages_router_router_a], [2, i10.Router]]), i0.ɵmpd(1073742336, i1.UbuntuModule, i1.UbuntuModule, []), i0.ɵmpd(1024, i10.ROUTES, function () { return [[{ path: "ubuntu-19.04-installation", component: i11.UbuntuinstalltionComponent }, { path: "ubuntu-tutorials", component: i12.UbuntuTutHomeComponent }, { path: "detecting-open-port-linux", component: i13.DetectingOpenportComponent }, { path: "ubuntu-openssh", component: i14.OpensshComponent }, { path: "partition-filesystem-on-linux", component: i15.PartitionFilesystemComponent }, { path: "how-to-install-ubuntu-20.04", component: i16.Ubuntu20Component }]]; }, [])]); });
+>>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
 exports.UbuntuModuleNgFactory = UbuntuModuleNgFactory;
 
 
@@ -3088,7 +3103,10 @@ const detecting_openport_component_1 = __webpack_require__(/*! ./Tutorials/detec
 const openssh_component_1 = __webpack_require__(/*! ./Tutorials/openssh/openssh.component */ "./src/app/ubuntu/Tutorials/openssh/openssh.component.ts");
 const partition_filesystem_component_1 = __webpack_require__(/*! ./Tutorials/partition-filesystem/partition-filesystem.component */ "./src/app/ubuntu/Tutorials/partition-filesystem/partition-filesystem.component.ts");
 const ubuntu20_component_1 = __webpack_require__(/*! ./Tutorials/ubuntu20/ubuntu20.component */ "./src/app/ubuntu/Tutorials/ubuntu20/ubuntu20.component.ts");
+<<<<<<< HEAD
 const ubuntu_login_loop_problem_component_1 = __webpack_require__(/*! ./Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component */ "./src/app/ubuntu/Tutorials/ubuntu-login-loop-problem/ubuntu-login-loop-problem.component.ts");
+=======
+>>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
 const routes = [
     { path: 'ubuntu-19.04-installation', component: ubuntuinstalltion_component_1.UbuntuinstalltionComponent },
     { path: 'ubuntu-tutorials', component: ubuntu_tut_home_component_1.UbuntuTutHomeComponent },
@@ -3103,10 +3121,13 @@ const routes = [
     },
     { path: 'how-to-install-ubuntu-20.04',
         component: ubuntu20_component_1.Ubuntu20Component
+<<<<<<< HEAD
     },
     {
         path: 'ubuntu-20.4-login-loop-problem',
         component: ubuntu_login_loop_problem_component_1.UbuntuLoginLoopProblemComponent
+=======
+>>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
     }
 ];
 class UbuntuModule {
@@ -3275,7 +3296,11 @@ exports.LAZY_MODULE_MAP = { "./lazymodule/lazymodule.module#LazymoduleModule": _
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! /home/vision/Downloads/My_blog_Backup/LinuxWorld-master/src/main.server.ts */"./src/main.server.ts");
+=======
+module.exports = __webpack_require__(/*! /home/vision/Desktop/TechBlog/src/main.server.ts */"./src/main.server.ts");
+>>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
 
 
 /***/ }),
