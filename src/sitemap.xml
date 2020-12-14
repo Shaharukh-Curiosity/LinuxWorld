@@ -9,69 +9,89 @@
 
 <url>
   <loc>https://visionrosetta.in/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://visionrosetta.in/ubuntu-tutorials/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/kali-linux-tutorials/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://visionrosetta.in/top-useful-linux-command/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://visionrosetta.in/shell-script-tutorials/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/feedback/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/ubuntu-20.4-login-loop-problem/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://visionrosetta.in/ubuntu-19.04-installation/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
   <loc>https://visionrosetta.in/create-non-root-user-on-kali/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://visionrosetta.in/install-latest-nodejs-npm-on-ubuntu/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://visionrosetta.in/ubuntu-openssh/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
   <loc>https://visionrosetta.in/detecting-open-port-linux/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://visionrosetta.in/aboutus/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://visionrosetta.in/privacy-terms/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://visionrosetta.in/partition-filesystem-on-linux/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://visionrosetta.in/how-to-install-ubuntu-20.04/</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
 <url>
-  <loc>https://visionrosetta.in/introduction-linux-shell-scripting</loc>
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
+  <loc>https://visionrosetta.in/introduction-linux-shell-scripting/</loc>
+  <lastmod>2020-12-14T09:46:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
-<url>
-  <loc>https://visionrosetta.in/install-latest-nodejs-npm-on-ubuntu</loc>
-  <lastmod>2020-12-2T05:41:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
 
-<url>
-  <loc>https://visionrosetta.in/ubuntu-20.4-login-loop-problem</loc>
-  <lastmod>2020-12-13T05:41:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
- 
- </urlset>
+</urlset>
