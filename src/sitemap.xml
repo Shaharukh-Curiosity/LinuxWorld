@@ -64,7 +64,6 @@
 
 <url>
   <loc>https://visionrosetta.in/install-latest-nodejs-npm-on-ubuntu</loc>
-<<<<<<< HEAD
   <lastmod>2020-12-2T05:41:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -74,15 +73,5 @@
   <lastmod>2020-12-13T05:41:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
-
-
-
-=======
-  <lastmod>2020-05-24T05:41:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
->>>>>>> 1ec4c86735c319ace676d54b3862a1df3224f11e
-</urlset>
+ 
+ </urlset>
