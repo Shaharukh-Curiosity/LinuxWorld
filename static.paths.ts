@@ -17,6 +17,7 @@ export const ROUTES = [
   '/kali-linux-tutorials',
   '/shell-script-tutorials',
   '/ubuntu-20.4-login-loop-problem',
-  '/shell-script-tutorials'
+  '/shell-script-tutorials',
+  '/brave-browser-install'
 ];
  

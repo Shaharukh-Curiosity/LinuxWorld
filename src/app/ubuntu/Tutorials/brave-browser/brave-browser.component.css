@@ -1,0 +1,17 @@
+img{
+     width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%
+  }
+    .container{
+     width: auto;
+      color:red; font-family: 'Merriweather', serif;line-height: 23px;color:rgb(50,59,69);font-size: 17px;
+      font-size: 19px;
+     }
+    h5{
+      color: blue;
+    }
+    .hightlight{
+      color: red;
+    }
